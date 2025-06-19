@@ -32,17 +32,14 @@ poetry install
 pip install -r requirements.txt
 ```
 3. Запуск сервера
-```bash
-poetry run uvicorn src.main:app --reload --no-access-log
-```
-или
+
 ```bash
 uvicorn src.main:app --reload --no-access-log
 ```
 4. Запуск CLI
 ```bash
 cd cli
-python cli.py [КОМАНДА] [ОПЦИИ]
+python cli.py [command] [options]
 ```
 ## 📚 Примеры использования CLI
 ### 🔍 Получить список всех томов
